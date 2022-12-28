@@ -1,0 +1,15 @@
+.contentContainer {
+    @apply flex flex-row;
+}
+
+.leftPane {
+    @apply invisible lg:visible w-1/4  ;
+}
+
+.middlePane {
+    @apply flex-grow w-full lg:w-1/2 ;
+}
+
+.rightPane {
+    @apply invisible lg:visible w-1/4;
+}

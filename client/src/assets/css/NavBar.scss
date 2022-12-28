@@ -1,0 +1,43 @@
+.NavBar {
+    @apply p-4
+}
+
+.navItem {
+    @apply flex items-center py-2 space-x-3 text-sm;
+}
+
+.icon {
+    @apply h-8 w-8;
+}
+
+.description {
+    @apply font-medium;
+}
+
+.friendsIcon {
+    content:url("../images/friends.png");
+}
+
+.groupIcon {
+    content:url("../images/group.png");
+}
+
+.pagesIcon {
+    content:url("../images/pages.png");
+}
+
+.memoriesIcon {
+    content:url("../images/history.png");
+}
+
+.messengerIcon {
+    content:url("../images/messenger.png");
+}
+
+.eventsIcon {
+    content:url("../images/events.png");
+}
+
+.newsIcon {
+    content:url("../images/news.png");
+}

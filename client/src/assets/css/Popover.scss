@@ -1,0 +1,9 @@
+.dropdown {
+    .btn {
+        @apply bg-transparent border-0 text-inherit font-normal normal-case p-0 m-0 min-h-0 h-0;
+    }
+}
+
+.dropdown-content {
+    @apply bg-gray-700 p-2 text-white text-xs;
+}

@@ -1,0 +1,54 @@
+@tailwind components;
+
+.header {
+  @apply sticky top-0 z-50 bg-white flex 
+  items-center shadow-md px-1;
+}
+
+.logo {
+    content:url("../images/logo.svg");
+    @apply h-7 w-7 md:h-10 md:w-10;
+}
+
+.optionsIcon{
+  @apply hidden lg:inline-flex p-2 h-10 w-10 bg-gray-200 rounded-full
+  cursor-pointer hover:bg-gray-300;
+
+  &.highlight {
+    @apply text-blue-500 bg-blue-100;
+  }
+}
+
+.textButton {
+  @apply bg-gray-200 hover:bg-gray-300 
+    rounded-full
+    p-2 px-4
+    font-semibold text-sm;
+
+    &.highlight {
+      @apply text-blue-500 bg-blue-100;
+    }
+}
+
+
+.navContainer {
+  @apply flex items-center cursor-pointer 
+    md:px-6 sm:h-10
+    text-gray-500 py-2 md:py-6;
+  
+    &:not(.highlight):hover {
+      @apply md:bg-gray-100 md:rounded-lg;
+    }
+
+    &.highlight {
+      @apply border-blue-500 border-b-2 
+        text-blue-500;
+    }
+  
+    .headerIcon {
+      @apply h-4
+      text-center 
+      sm:h-7 mx-auto 
+      md:px-2
+    }
+}

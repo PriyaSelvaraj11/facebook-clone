@@ -1,0 +1,30 @@
+.addPostContainer {
+    @apply rounded-lg bg-white flex flex-col p-3 px-4 shadow my-1;
+    .addPostButtonContainer {
+        @apply flex items-center space-x-2 border-b pb-3 mb-2;
+        .addPostButton {
+            @apply hover:bg-gray-200 focus:bg-gray-300 focus:outline-none flex-grow bg-gray-100 text-gray-500 text-left rounded-full h-10 pl-5;
+        }
+    }
+
+    .addonContainer {
+     @apply flex space-x-3 font-thin text-sm text-gray-600 -mb-1;
+        .addonButton {
+            @apply flex-1 flex items-center h-8 focus:outline-none focus:bg-gray-200 justify-center space-x-2 hover:bg-gray-100 rounded-md;
+        }
+    }
+}
+
+.postContainer {
+    @apply w-full shadow h-auto bg-white rounded-md;
+}
+
+.reactContainer {
+    @apply flex space-x-3 text-gray-500 text-sm font-thin;
+    .reactButton {
+        @apply flex-1 flex items-center h-8 focus:outline-none focus:bg-gray-200 justify-center space-x-2 hover:bg-gray-100 rounded-md;
+    }
+    .icon {
+        @apply h-6 w-6;
+    }
+}
