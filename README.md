@@ -1,4 +1,4 @@
-A responsive application is clone of the famous social app 'Facebook'. The frontend part of the application is built using **Tailwind CSS and React JS** and the backend part is built using the **NodeJS library , GraphQL, TypeORM and PostgresQL database**.
+A responsive application which is a clone of the famous social app 'Facebook'. The frontend part of the application is built using **Tailwind CSS and React JS** and the backend part is built using the **NodeJS library , GraphQL, TypeORM and PostgresQL database**.
 
 Prerequisites to be installed in the computer to run this application
     1. Node JS
